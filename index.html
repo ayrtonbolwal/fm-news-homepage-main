@@ -13,19 +13,32 @@
 <body class="container">
   <nav>
     <img src="./assets/images/logo.svg" alt="" class="logo">
-    <ul>
+    <ul class="desktop-list">
       <li>Home</li>
       <li>New</li>
       <li>Popular</li>
       <li>Trending</li>
       <li>Categories</li>
     </ul>
-    <img src="./assets/images/icon-menu.svg" alt="" style="display: none;">
+    <img src="./assets/images/icon-menu.svg" alt="" class="burger-img" id="burgerButton">
+    
+    <section class="mobile__menu" id="mobileMenu">
+      <div class="mobile__menu-space">
+        <img src="./assets/images/icon-menu-close.svg" alt="" id="closeButton">
+        <ul class="mobile__menu-space__list">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </div>
+    </section>
   </nav>
   <main class="header">
     <section class="header__firstNote">
-      <img src="./assets/images/image-web-3-desktop.jpg" alt="" class="header__firstNote-image">
-      <img src="./assets/images/image-web-3-mobile.jpg" alt="" style="display: none;">
+      <img src="./assets/images/image-web-3-desktop.jpg" alt="" class="header__firstNote-image__Desktop">
+      <img src="./assets/images/image-web-3-mobile.jpg" alt="" class="header__firstNote-image__Mobile">
       <h1 class="header__firstNote-title">The Bright Future of Web 3.0?</h1>
       <div class="header__firstNote-preview">
         <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
@@ -80,5 +93,7 @@
       </div>
     </article>
   </section>
+
+  <script src="script/script.js"></script>
 </body>
 </html>
