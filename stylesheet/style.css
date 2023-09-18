@@ -8,6 +8,7 @@
   --veryDarkBlueTransparent: hsl(240, 100%, 5%, 0.2);
 }
 * {
+  cursor: default;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -47,6 +48,7 @@ nav ul li:hover {
 }
 nav .burger-img {
   display: none;
+  cursor: pointer;
 }
 
 .mobile__menu{
@@ -242,6 +244,7 @@ nav .burger-img {
     width: 25px;
     align-self: flex-end;
     margin-bottom: 4rem;
+    cursor: pointer;
   }
 
   nav .mobile__menu-space__list {
